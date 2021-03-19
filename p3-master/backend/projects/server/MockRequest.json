@@ -1,0 +1,24 @@
+{
+    "transaction": 
+        {
+            "sigle": "INF3995",
+            "nom": "projet3",
+            "trimestre": 20193,
+            "resultats": [
+            {
+                "nom" : "Bloe",
+                "prenom" : "Joe",
+                "matricule" : 1234567,
+                "note" : "A+"
+            },
+            {
+                "nom" : "Doe",
+                "prenom" : "John",
+                "matricule" : 2143765,
+                "note" : "E"
+            }
+            ]
+        },
+    "pdf": "mockRequest1"
+    
+}

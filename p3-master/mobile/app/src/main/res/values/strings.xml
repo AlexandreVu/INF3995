@@ -1,0 +1,120 @@
+<resources>
+<!--    GENERAL STRINGS     -->
+    <string name="app_name">Édu-Dossier</string>
+
+<!--    MAIN ACTIVITY STRINGS    -->
+    <string name="welcome_text">Bienvenue à Édu-Dossier!</string>
+    <string name="enter_username">Entrez votre nom d\'utilisateur.</string>
+    <string name="enter_password">Entrez votre mot de passe.</string>
+    <string name="login">CONNEXION</string>
+    <string name="login_client_err">Veuillez vérifier vos identifiants.</string>
+    <string name="wrong_credentials_title">Erreur de connexion</string>
+    <string name="wrong_credentials_body">Vos identifiants sont erronés! Vérifiez l\'information entrée.</string>
+    <string name="login_server_err">Veuillez vous assurer que le serveur est fonctionnel.</string>
+
+
+<!--    OPTIONS ACTIVITY STRINGS    -->
+    <string name="option_text">Que souhaitez-vous faire?</string>
+    <string name="edit_account">MODIFIER LE COMPTE</string>
+    <string name="consult_information">CONSULTER DES INFORMATIONS</string>
+    <string name="edit_information">AJOUTER DES RELEVÉS</string>
+    <string name="logout">DÉCONNEXION</string>
+    <string name="option_popup_title">Que souhaitez-vous consulter?</string>
+    <string name="option_popup_body">Voulez-vous la liste d\'étudiants d\'un cours spécifique, ou les cours d\'un étudiant particulier? \n Choisissez l\'option ci-dessous.</string>
+    <string name="options_student_class">Cours d\'un.e étudiant.e</string>
+    <string name="options_class_students">Étudiant.e.s d\'un cours\t</string>
+    <string name="logout_error_title">Erreur de déconnexion</string>
+
+
+<!--    COURSE UPLOAD STRINGS   -->
+    <string name="semester_input_text">Veuillez entrer le trimestre.</string>
+    <string name="select_code">Veuillez entrer le sigle du cours.</string>
+    <string name="nom_du_cours">Nom du cours:</string>
+    <string name="ex_conception_logicielle">Ex: Conception logicielle</string>
+    <string name="class_code_format">Format: [3 lettres][4 chiffres]. Ex. INF3995</string>
+    <string name="trimester_format">Format: YYYYS. Ex.: 20203</string>
+    <string name="input_student_information">AJOUTER L\'INFORMATION SUR L\'ÉTUDIANT</string>
+    <string name="transaction_success_title">La transaction a bien été envoyée!</string>
+    <string name="save_student">ENREGISTRER L\'ÉTUDIANT.E</string>
+    <string name="transaction_success_body">Vous pouvez maintenant consulter ces informations.</string>
+    <string name="student_information">Informations de l\'étudiant.e</string>
+    <string name="first_name">Prénom:</string>
+    <string name="last_name">Nom de famille:</string>
+    <string name="letter_grade">Note:</string>
+    <string-array name="Grades">
+        <item>A*</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>F</item>
+        <item>IP</item>
+        <item>IV</item>
+        <item>S</item>
+        <item>I</item>
+        <item>J</item>
+        <item>P</item>
+        <item>R</item>
+        <item>SE</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string name="student_code">Matricule</string>
+    <string name="missing_information_body">Veuillez entrer un sigle de cours, nom de cours et un trimestre. Veuillez également choisir un fichier PDF. </string>
+    <string name="transaction_format_err">\"Veuillez vous assurer que les données sont rentrées correctement:\n Sigle du cours: Trois lettres suivies de quatre chiffres (ex: INF3995).\n Trimestre: Cinq chiffres: Année, suivi de la session (ex: 20201).\n Nom du cours: Caractères alphabétiques et \', -, . (Ex: Projet de conception d\'un syst. informatique)."</string>
+    <string name="transmission_error_title">Erreur lors de la transaction.</string>
+    <string name="choose_file_txt">CHOISIR UN FICHIER</string>
+    <string name="choose_pdf_txt">Choisissez un PDF</string>
+    <string name="information_added_title">Information de l\'étudiant.e ajoutée!</string>
+    <string name="add_other_students_body">Souhaitez-vous ajouter d\'autres étudiant.e.s?</string>
+    <string name="pdf_select_text">Sélectionner un PDF</string>
+    <string name="missing_pdf_title">Aucun PDF sélectionné!</string>
+    <string name="missing_pdf_body">Veuillez vous assurer de sélectionner un fichier PDF à associer à la requête.</string>
+    <string name="pdf_upload_error_title">Erreur lors de la sélection du PDF!</string>
+    <string name="class_code">Sigle du cours</string>
+    <string name="pdf_upload_error_body">Il y a eu une erreur lors de la sélection du PDF. Veuillez réessayer!</string>
+    <string name="student_transaction_format_err">Veuillez vous assurer que les données sont rentrées correctement:\n Prénom: Caractères alphabétiques: Bob \n Nom: Caractères alphabétiques: Tremblay \n Matricule: Sept chiffres (ex: 1234567). </string>
+
+
+<!--    GENERIC DIALOG STRINGS  -->
+    <string name="missing_information_title">Erreur d\'entrée d\'information!</string>
+    <string name="generic_error">Quelque chose s\'est mal déroulé. Veuillez réessayer!</string>
+    <string name="try_again">Veuillez réessayer!</string>
+
+
+<!--    ACCOUNT EDIT STRINGS    -->
+    <string name="password_change_success_title">Mot de passe changé avec succès!</string>
+    <string name="old_password">Ancien mot de passe:</string>
+    <string name="new_password">Nouveau mot de passe:</string>
+    <string name="confirm_password">Confirmer le mot de passe:</string>
+    <string name="yes">OUI</string>
+    <string name="send_students">NON: ENVOYER LES ÉTUDIANTS \t </string>
+    <string name="save_changes">Sauvegarder les changements</string>
+    <string name="unmatching_passwords_title">Les mots de passe ne correspondent pas!</string>
+    <string name="unmatching_passwords_body">Veuillez vous assurer de bien valider votre mot de passe. Veuillez réessayer.</string>
+    <string name="password_change_success_body">Vous pourrez l\'utiliser à votre prochaine connexion.</string>
+
+
+<!--    SEARCH STRINGS   -->
+    <string name="course_search">Recherche de cours</string>
+    <string name="course_code">Sigle du cours</string>
+    <string name="semester">Trimestre</string>
+    <string name="search">RECHERCHER</string>
+    <string name="grade">Note</string>
+    <string name="course_search_format_error_title">Mauvais format</string>
+    <string name="course_search_format_error_body"> Veuillez vous assurer que les données sont rentrées correctement: \n Sigle du cours: Trois lettres suivies de quatre chiffres (ex: INF3995).\n Trimestre: Cinq chiffres: Année, suivi de la session (ex: 20201).</string>
+    <string name="student_search">Recherche d\'un.e étudiant.e</string>
+    <string name="search_btn">RECHERCHER</string>
+    <string name="student_format_err">Veuillez vous assurer que les données sont rentrées correctement: \n Matricule: Sept chiffres (ex: 1234567).\n Sigle du cours: Trois lettres suivies de quatre chiffres (ex: INF3995).\n Trimestre: Cinq chiffres: Année, suivi de la session (ex: 20201).</string>
+    <string name="pdf_error_title">Erreur lors du chargement du PDF</string>
+    <string name="search_no_results_title">Aucun résultat trouvé pour ces paramètres!</string>
+    <string name="search_no_results_body">Veuillez réessayer de nouveaux paramètres!</string>
+    <string name="get_students_error_title">Erreur lors de la consultation des étudiants</string>
+    <string name="get_courses_error_title">Erreur lors de la consultation des cours</string>
+    <string name="pdf_load_error_title">Erreur lors du chargement du PDF</string>
+
+</resources>

@@ -1,0 +1,23 @@
+{
+    "transaction": 
+        {
+            "sigle": "log2990",
+            "nom": "projet2",
+            "trimestre": 20193,
+            "resultats": [
+                {
+                    "nom" : "henry",
+                    "prenom" : "Ford",
+                    "matricule" : 1298023,
+                    "note" : "B"
+                },
+                {
+                    "nom" : "Bloe",
+                    "prenom" : "Joe",
+                    "matricule" : 1234567,
+                    "note" : "B"
+                }
+            ]
+        },
+    "pdf": "mockRequest2"
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/trimester_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:text="@string/semester_input_text"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_name_input" />
+
+    <TextView
+        android:id="@+id/course_code_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:text="@string/select_code"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/course_name_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="@string/nom_du_cours"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/course_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_input" />
+
+    <EditText
+        android:id="@+id/course_name_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ex_conception_logicielle"
+        android:padding="8dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/course_name_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/course_name_text"
+        app:layout_constraintTop_toBottomOf="@+id/course_name_text" />
+
+    <EditText
+        android:id="@+id/course_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/class_code_format"
+        android:padding="8dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/course_code_edit_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/course_code_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/course_code_edit_text" />
+
+    <EditText
+        android:id="@+id/semester_code_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/trimester_format"
+        android:padding="8dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/course_code_edit_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/course_code_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/trimester_edit_text" />
+
+    <Button
+        android:id="@+id/add_student_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/input_student_information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upload_file_btn" />
+
+    <TextView
+        android:id="@+id/pdf_choice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:text="@string/choose_pdf_txt"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/semester_code_input" />
+
+    <Button
+        android:id="@+id/upload_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/choose_file_txt"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="@id/pdf_choice_text"
+        app:layout_constraintStart_toEndOf="@id/pdf_choice_text"
+        app:layout_constraintTop_toTopOf="@id/pdf_choice_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

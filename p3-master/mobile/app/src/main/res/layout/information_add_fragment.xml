@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/student_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/student_information"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/student_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/first_name"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_information" />
+
+    <TextView
+        android:id="@+id/student_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/last_name"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_first_name" />
+
+    <EditText
+        android:id="@+id/first_name_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/student_first_name"
+        app:layout_constraintEnd_toEndOf="@+id/last_name_input"
+        app:layout_constraintStart_toEndOf="@+id/student_first_name"
+        app:layout_constraintTop_toTopOf="@+id/student_first_name" />
+
+    <EditText
+        android:id="@+id/last_name_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/student_last_name"
+        app:layout_constraintEnd_toEndOf="@+id/student_code_input"
+        app:layout_constraintStart_toEndOf="@+id/student_last_name"
+        app:layout_constraintTop_toTopOf="@+id/student_last_name" />
+
+    <TextView
+        android:id="@+id/class_code_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/student_code"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_last_name" />
+
+    <EditText
+        android:id="@+id/student_code_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minEms="10"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/class_code_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/class_code_text"
+        app:layout_constraintTop_toTopOf="@+id/class_code_text" />
+
+    <TextView
+        android:id="@+id/letter_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/letter_grade"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/class_code_text" />
+
+    <Spinner
+        android:id="@+id/letter_grade_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:entries="@array/Grades"
+        app:layout_constraintBottom_toBottomOf="@+id/letter_grade"
+        app:layout_constraintStart_toEndOf="@+id/letter_grade"
+        app:layout_constraintTop_toTopOf="@+id/letter_grade" />
+
+    <Button
+        android:id="@+id/save_student_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/save_student"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/letter_grade" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

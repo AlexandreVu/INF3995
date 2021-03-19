@@ -1,0 +1,18 @@
+[submodule "backend/lib/restbed"]
+	path = backend/lib/restbed
+	url = https://github.com/Corvusoft/restbed.git
+[submodule "backend/lib/zeromq"]
+	path = backend/lib/zeromq
+	url = https://github.com/zeromq/cppzmq.git
+[submodule "backend/lib/jsoncpp"]
+	path = backend/lib/jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp
+[submodule "backend/lib/jwt-cpp"]
+	path = backend/lib/jwt-cpp
+	url = https://github.com/pokowaka/jwt-cpp.git
+[submodule "backend/lib/nlohmann"]
+	path = backend/lib/nlohmann
+	url = https://github.com/nlohmann/json.git
+[submodule "backend/lib/sqlite-amalgamation"]
+	path = backend/lib/sqlite-amalgamation
+	url = https://github.com/azadkuh/sqlite-amalgamation

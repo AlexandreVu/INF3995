@@ -1,0 +1,23 @@
+{
+    "transaction": 
+        {
+            "sigle": "SSH3501",
+            "nom": "Ethique",
+            "trimestre": 20193,
+            "resultats": [
+                {
+                    "nom" : "Jean",
+                    "prenom" : "Joe",
+                    "matricule" : 1294567,
+                    "note" : "A+"
+                },
+                {
+                    "nom" : "Doe",
+                    "prenom" : "John",
+                    "matricule" : 2143765,
+                    "note" : "R"
+                }
+            ]
+        },
+    "pdf": "mockRequest3"
+}
